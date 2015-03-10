@@ -1,4 +1,4 @@
-Data and Materials for Advanced SQL class in MySQL at NICAR15
+Data and Materials for Advanced SQL in MySQL at NICAR15
 ======================
 
 ###All the SQL for the class is in this file: [Exploring_OSHA.sql](https://github.com/eklucas/NICAR-Adv-SQL/blob/master/Exploring_OSHA.sql)
