@@ -1,0 +1,21 @@
+Display_Name,Column_Name,Description
+Summary NR,summary_nr,Identifies the accident OSHA-170 form
+Related Inspection NR,rel_insp_nr,Identifies the inspection associated with investigating a particular injury
+Age,age,Age of the injured person
+Sex,sex,M=Male. F=Female
+Nature of Injury,nature_of_inj,Nature of injury code - code table IN
+Part of Body,part_of_body,Part of body code - code table BD
+Source of Injury,src_of_injury,Source of injury code - code table SO
+Event Type,event_type,Event type code - code table FT
+Environmental Factor,evn_factor,Environmental factor code - code table EN
+Human Factor,hum_factor,Human factor code - code table HU
+Occupation Code,occ_code,Occupation code - code table OCC
+Degree of Injury,degree_of_inj,1=Fatality. 2=Hospitalized injuries. 3=No Hospitalized injuries
+Task Assigned,task_assigned,1=Task regularly assigned. 2=Task not regularly assigned
+Hazardous Substance,hazsub,Hazardous substance code
+Operation Code,const_op,Construction - operation code (code table OPER)
+Cause of Injury,const_op_cause,Construction - cause of injury (code table OPER)
+Cause of Fatality,fat_cause,Construction - cause of fatality (code table CAUS)
+Distance of Fall,fall_distance,Construction - distance of fall (feet)
+Height of Person,fall_ht,Construction - height of person when fell (feet)
+Injury Line Number,injury_line_nr,Injury line number - is often referenced in the abstract text to refer to a particular person.
