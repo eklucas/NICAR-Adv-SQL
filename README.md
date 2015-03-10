@@ -23,4 +23,9 @@ https://www.dropbox.com/s/fw09f9kxi0ldir3/adv_sql_data.zip?dl=0
 * `ALTER TABLE` to add columns
 * `UPDATE` to populate new columns
 * `STR_TO_DATE` to convert text dates to actual dates
-* `
+* `DATEDIFF` to calculate difference in days between two dates
+* wildcards for more complex filtering
+* aliases in table names
+* outer joins
+* multiple joins in one query
+* subqueries
