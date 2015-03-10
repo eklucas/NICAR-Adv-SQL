@@ -64,7 +64,7 @@ WHERE site_state = ''
 
 -- So let's create a new field that is actually formatted as a date. 
 
-ALTER TABLE inspection ADD COLUMN open_date2 varchar(255) AFTER open_date
+ALTER TABLE inspection ADD COLUMN open_date2 date AFTER open_date
 ;
 
 -- Then we'll populate it with data from the `open_date` field, but after we convert it to a date. 
@@ -92,7 +92,7 @@ FROM inspection
 
 -- Let's do this for the close_case_date as well:
 
-ALTER TABLE inspection ADD COLUMN close_case_date2 varchar(255) AFTER close_case_date
+ALTER TABLE inspection ADD COLUMN close_case_date2 date AFTER close_case_date
 ;
 
 UPDATE inspection SET close_case_date2 = str_to_date(close_case_date, '%Y-%m-%d')
