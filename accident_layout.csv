@@ -1,0 +1,16 @@
+Display_Name,Column_Name,Description
+Summary NR,summary_nr,Identifies the accident OSHA-170 form
+Reporting ID,report_id,Identifies the OSHA federal or state reporting jurisdiction
+Event Date,event_date,Date of accident (yyyymmdd)
+Event Time,event_time,Time of accident (hhmm)
+Event Description,event_desc,Short description of event
+Event Keyword,event_keyword,Contains comma separated keywords entered by ERG during the review process.
+End Use,const_end_use,Construction - end-use (code table ENDU)
+Stories in Building,build_stories,Construction - nr of stories in building
+Height for Non-Building,nonbuild_ht,Construction - height in feet when not a building
+Project Cost,project_cost,Construction - project cost range (code table COST)
+Project Type,project_type,Construction - project type (code table PTYP)
+Associated SICs,sic_list,Comma separated 4-digit SICs associated with related inspections
+Fatality,fatality,X=Fatality is associated with accident
+,state_flag,
+,abstract_text,
