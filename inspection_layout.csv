@@ -1,0 +1,46 @@
+Display_Name,Column_Name,Description
+Activity NR,activity_nr,Unique identifier for the inspection
+Reporting ID,reporting_id,Identifies the OSHA federal or state reporting jurisdiction
+,state_flag,
+Name,estab_name,Establishment being inspected
+Address,site_address,Street address of site inspected
+City,site_city,City of site inspected
+State,site_state,State postal abbreviation of site inspected
+Zip,site_zip,Postal zip code of site inspected
+Owner Type,owner_type,A=Private. B=LocalGovt. C=StateGovt. D=Federal
+Owner Code,owner_code,Used for owner=D only
+Advance Notice,adv_notice,Y/N/blank
+Safety/Health,safety_hlth,Safety/Health indicator (S=Safety. H=Health)
+SIC,sic_code,SIC code
+NAICS,naics_code,The unique code number that is assigned to the NAICS.
+Inspection Type,insp_type,A=Accident. B=Complaint. C=Referral. D=Monitoring. E=Variance. F=FollowUp. G=Unprog Rel. H=Planned. I=Prog Related. J=Unprog Other. K=Prog Other. L=Other-L
+Inspection Scope,insp_scope,A=Complete.B=Partial.C=Records.D=NoInspection
+Why No Inspection,why_no_insp,A=No Insp/Not Found.B=No Insp/Out of Business.C=No Insp/Process Inactive.D=No Insp/10 or Fewer Empe.E=No Insp/Denied Entry.F=No Insp/SIC not on PG.G=No Insp/Exempt Voluntary.H=No Insp/NonExempt Consult.I=No Insp/Other
+Union,union_status,Indicates union representation during inspection (Yes=Y/U/A. No=N/B/blank)
+Safety Planning Guide Manf,safety_manuf,Safety planning guide manufacturing (X/blank)
+Safety Planning Guide Const,safety_const,Safety planning guide construction (X/blank)
+Safety Planning Guide Maritime,safety_marit,Safety planning guide maritime (X/blank)
+Health Planning Guide Manuf,health_manuf,Health planning guide manufacturing (X/blank)
+Health Planning Guide Constr,health_const,Health planning guide construction (X/blank)
+Health Planning Guide Maritime,health_marit,Health planning guide maritime (X/blank)
+Migrant,migrant,Migrant labor inspection (X/blank)
+Mailing Street Address,mail_street,Mailing address street
+Mailing Address City,mail_city,Mailing address city
+Mailing Address State,mail_state,Mailing address state postal abbreviation
+Mailing Address Zip Code,mail_zip,Mailing address postal zip code
+Host Establishment Key,host_est_key,Internal establishment key
+Number in Establishment,nr_in_estab,Number of employees in establishment (not for public display)
+Open Date,open_date,Indicates when the inspection was started.
+Conf Closed,close_conf_date,Close date of inspection (yyyymmdd)
+Case Closed,close_case_date,Closing conference date (yyyymmdd)
+,open_year,
+,case_mod_year,
+,close_conf_year,
+,close_case_year,
+,osha_accident_indicator,
+,violation_type_s,Serious violation
+,violation_type_o,Other than serious violation
+,violation_type_r,Repeat violation
+,violation_type_u,Unclassified violation
+,violation_type_w,Willful violation
+,inspection_to_filter,
