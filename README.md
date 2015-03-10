@@ -16,3 +16,11 @@ https://www.dropbox.com/s/fw09f9kxi0ldir3/adv_sql_data.zip?dl=0
  * [accident](https://github.com/eklucas/NICAR-Adv-SQL/blob/master/accident_layout.csv)
  * [accident_injury](https://github.com/eklucas/NICAR-Adv-SQL/blob/master/accident_injury_layout.csv).
 
+###What I cover: 
+* Truthing data tables and joins
+* `DISTINCT`
+* `CREATE TABLE` and `LOAD DATA INFILE` syntax
+* `ALTER TABLE` to add columns
+* `UPDATE` to populate new columns
+* `STR_TO_DATE` to convert text dates to actual dates
+* `
