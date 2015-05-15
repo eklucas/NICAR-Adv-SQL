@@ -11,7 +11,6 @@ https://www.dropbox.com/s/fw09f9kxi0ldir3/adv_sql_data.zip?dl=0
 
 
 ###Record layouts
-*Note that the data dictionary provided by OSHA doesn't list all of the fields that are in the data*
  * [Data dict from OSHA](http://enforcedata.dol.gov/views/data_dictionary.php)
  * [inspection](https://github.com/eklucas/NICAR-Adv-SQL/blob/master/inspection_layout.csv)
  * [accident](https://github.com/eklucas/NICAR-Adv-SQL/blob/master/accident_layout.csv)
