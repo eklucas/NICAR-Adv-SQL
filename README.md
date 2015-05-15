@@ -5,6 +5,7 @@ Data and Materials for Advanced SQL in MySQL at NICAR15
 
 ###Download the data 
 https://www.dropbox.com/s/fw09f9kxi0ldir3/adv_sql_data.zip?dl=0
+(Note that this download gives you the full files, whereas the class notes work off of a slice from 2000 forward, using the field `open_date`.
 
 `inspection`, `accident`, `accident_injury` were downloaded from the DOL's [OSHA download site](http://ogesdw.dol.gov/views/data_catalogs.php) on 02/23/2015.
 
